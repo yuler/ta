@@ -18,8 +18,6 @@ Route::get('/signIn', array('as' => 'site.signIn', function() {return View::make
 Route::get('/signUp', array('as' => 'site.signUp', function() {return View::make('site::signUp'); }));
 
 
-
-
 //请求登录
 Route::post('/signIn', array('as' => 'site.signIn.post', 'uses' => 'AuthController@postSignIn'));
 

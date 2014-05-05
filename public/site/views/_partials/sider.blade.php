@@ -1,8 +1,8 @@
 <!-- sider -->
-	<div class="pinned" id="pinned_left">
+	<div class="pinned" id="pinned-left">
 		<span class="sb-toggle-left btn-link"><img src="/site/assets/img/pin_icon_menu.png"></span><br>
 	</div>
-	<div class="pinned" id="pinned_right">
+	<div class="pinned" id="pinned-right">
 		<span class="sb-toggle-right btn-link"><img src="/site/assets/img/pin_icon_user.png"></span><br>
 	</div>
 	

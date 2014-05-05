@@ -2,7 +2,7 @@
 
 @section('main')
 	
-	<div class="singUp_page form-horizontal" role="form">
+	<div class="singUp-page form-horizontal" role="form">
 		<form class="form-horizontal" role="form">
 			<div class="form-group">
 				<div class="col-xs-offset-3 col-xs-3">

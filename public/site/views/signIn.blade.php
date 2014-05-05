@@ -6,7 +6,7 @@
 		<h1>用户登录</h1>
 	</center>
 
-	<div class="singIn_page form-horizontal" role="form">
+	<div class="singIn-page form-horizontal" role="form">
 		<form class="form-horizontal" role="form" action="{{ route('site.signIn.post') }}" method="post">
 			<div class="form-group">
 				<div class="col-lg-4 col-lg-offset-4 col-xs-8 col-xs-offset-2">

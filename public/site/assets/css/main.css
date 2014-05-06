@@ -1,23 +1,45 @@
 html{ border:0; height:100%; }
 body{ margin:0px; padding:0px; height:100%;}
 
-header{ padding-top: 10%; text-align: center; }
-footer{ padding-top: 10%;text-align: center;}
+header{padding-top: 15%}
+footer{padding-top: }
 
-.navigation{ height: 50px; border-bottom: 1px solid #cccccc; padding-left: 10px; }
+/* 容器最大宽度970px */
+@media(min-width: 992px){.container { width: 768px; clear: both;} }
+
+/*.container{
+	border: 1px solid #cccccc;
+}*/
+
+/* 头部导航 */
+.navigation{ height: 50px; border-bottom: 1px solid #cccccc; padding-left: 5px;font-size: 14px;}
 .navigation a { color: black;text-decoration: none; }
 .navigation ul { list-style-type: none;padding: 15px; }
+@media (max-width: 600px){ .navigation li+li { padding-left: 10%;} }
+@media (min-width: 600px) and (max-width: 768px) { .navigation li+li { padding-left: 8%;} }
+@media (min-width: 768px) and (max-width: 992px) { .navigation li+li { padding-left: 6%;} }
+@media (min-width: 992px) and (max-width: 1200px) { .navigation li+li { padding-left: 4%;} }
+@media (min-width: 1200px) { .navigation li+li { padding-left: 2%;} }
 
-
+/* 两侧导航 */
 .sider-nav-list{ list-style-type: none; padding: 20px; } 
 .sider-nav-list li{ padding: 20px; } 
 
-.home-page{ padding-top: 10%;text-align: center; height: 50%; }
-.singIn-page{ padding-top: 5%; height: 50%; }
-.singUp-page{ padding-top: 5%; height: 50%; }
-.topics-page{ padding-top: 10%; height: 50%; }
+/* main页面  */
+.home-page{ padding-top: 10%;text-align: center; }
+.singin-page{ padding-top: 5%; }
+.singup-page{ padding-top: 5%; }
+.topics-page{ padding-top: 10%; }
 
+/* pin 定位 */
 #pinned-left{ float: left; }
 #pinned-right{ float: right; }
 
-.text-right{text-align: right;}
+/* 全局 */
+.text-align-right{ text-align: right; }
+
+.float-left{ float: left; }
+.float-right{ float: right; }
+
+.a_underline:hover{text-decoration: none; }
+

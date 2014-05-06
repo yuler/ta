@@ -1,7 +1,7 @@
 <!-- head partials -->
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=no">
 		<title>
 			@section('title')
 			TA主页
@@ -20,6 +20,7 @@
 
 		<!-- holder js -->
 		<script type="text/javascript" src="{{ asset('/assets/js/holder.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('/assets/js/placeholders.min.js') }}"></script>
 
 		<!-- jquery.pin -->
 		<script type="text/javascript" src="{{ asset('/assets/js/jquery.pin.min.js') }}"></script>

@@ -12,14 +12,16 @@
 Route::get('/', array('as' => 'site.home', function() {return View::make('site::index'); }));
 
 // 登录页面
-Route::get('/signIn', array('as' => 'site.signIn', function() {return View::make('site::signIn'); }));
+Route::get('/signin', array('as' => 'site.signIn', function() {return View::make('site::signIn'); }));
 
 // 注册页面
-Route::get('/signUp', array('as' => 'site.signUp', function() {return View::make('site::signUp'); }));
+Route::get('/signup', array('as' => 'site.signUp', function() {return View::make('site::signUp'); }));
 
+// 忘记密码页面
+Route::get('/forget', array('as' => 'site.forget', function() {return View::make('site::forget'); }));
 
 //请求登录
-Route::post('/signIn', array('as' => 'site.signIn.post', 'uses' => 'AuthController@postSignIn'));
+Route::post('/signin', array('as' => 'site.signIn.post', 'uses' => 'AuthController@postSignIn'));
 
 //请求退出
 Route::get('/logout', array('as' => 'site.logout', 'uses' => 'AuthController@getLogout'));

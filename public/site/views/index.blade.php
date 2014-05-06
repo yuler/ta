@@ -1,5 +1,15 @@
 @extends('site::_layouts/home')
 
+@section('title')
+	主页
+@stop
+
+@section('header')
+	<center>
+		<h1>TA 主页</h1>
+	</center>
+@stop
+
 @section('main')
 
 	<div class="home-page">
@@ -10,3 +20,4 @@
 	</div>
 	
 @stop
+
